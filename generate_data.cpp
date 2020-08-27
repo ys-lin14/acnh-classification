@@ -28,12 +28,10 @@ int main(int argc, char **argv) {
     std::ofstream output_file;
     output_file.open("data/generated_data.csv");
     
-    output_file << "seed," << "previous_pattern," << "pattern," << "base_price,";
-    // 1 to 12 = Monday AM, Monday PM, ... Saturday AM, Saturday PM
-    for (int i = 1; i < 12; i++) {
-        output_file << i << ',';
-    }
-    output_file << 12 << '\n'; 
+    output_file << "seed,previous_pattern,pattern,base_price," <<
+                   "Monday AM,Monday PM,Tuesday AM,Tuesday PM,Wednesday AM," <<
+                   "Wednesday PM,Thursday AM,Thursday PM,Friday AM," <<
+                   "Friday PM,Saturday AM,Saturday PM" << '\n';
     
     for (unsigned int j = 0; j < num_iterations; j++) {
         pattern = pattern_distribution(gen);
