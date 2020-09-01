@@ -2,9 +2,15 @@
 
 #### Context
 
+
 #### Methods:
+- naive bayes
+- k nearest neighbours
+- 5 fold cross validation
 
 #### Goals:
+- generate turnip prices 
+- classify turnip selling price trends 
 
 #### Results:
 
