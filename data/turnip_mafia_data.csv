@@ -1,4 +1,4 @@
-trend_id,Monday AM,Monday PM,Tuesday AM,Tuesday PM,Wednesday AM,Wednesday PM,Thursday AM,Thursday PM,Friday AM,Friday PM,Saturday AM,Saturday PM,pattern_naive_bayes,pattern_knn
+trend_id,Monday AM,Monday PM,Tuesday AM,Tuesday PM,Wednesday AM,Wednesday PM,Thursday AM,Thursday PM,Friday AM,Friday PM,Saturday AM,Saturday PM,naive_bayes_prediction,knn_prediction
 0,149,105,122,68,59,55,127,153,137,141,71,60,0,0
 1,81,77,74,69,65,136,134,153,161,134,55,54,3,3
 2,119,136,100,68,58,53,144,72,64,105,87,119,0,0
