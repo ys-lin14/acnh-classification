@@ -1,22 +1,30 @@
 # ACNH-Classification
 
-#### Context
+**Context**<br>
 I wanted to expand upon my previous project and build models to classify turnip price patterns using generated data.
+<br><br>
 
-#### Methods:
+
+**Methods**<br>
 - naive bayes
 - k nearest neighbours
 - 5 fold cross validation
+<br><br>
 
-#### Goals:
+
+**Goals**<br>
 - generate turnip prices 
 - classify turnip selling price patterns
+<br><br>
 
-#### Results:
+
+**Results**<br>
 I trained a naive bayes and knn classifier using turnip price data generated with C++ and code from Ash Wolf's GitHub.
 The naive bayes and knn classififers resulted in average test accuracies of 0.937 and 0.999 respectively.
+<br><br>
 
-#### Other Considerations
+
+**Other Considerations**<br>
 Price pattern probabilities were dependent upon the previous pattern and non-uniform which resulted in some data imbalance.
 Taking this imbalance into consideration I went with stratified k fold cross validation.
 
@@ -25,8 +33,10 @@ other classification models such as logistic regression, the effects of reducing
 accuracy along with the minimum amount of data to achieve a certain accuracy.
 
 Furthermore, the knn model can be pickled and used to create an application for pattern classification.
+<br><br>
 
-#### References
+
+**References**<br>
 *Animal Crossing New Horizons* [Game]. (2020). Kyoto: Nintendo.
 
 Maddox Knight. (2020). Maddox Knight's Turnip Mafia (Public Edition). [Data]. Retrieved from https://docs.google.com/spreadsheets/d/1hMmewPJvXw-tmabvccC0nWJdN7zw3aQIQzN3EQ9is6g/edit#gid=370566781
