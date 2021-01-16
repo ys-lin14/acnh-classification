@@ -24,7 +24,7 @@ The naive bayes and knn classififers resulted in average test accuracies of 0.93
 <br><br>
 
 
-**Complete Weekly Trends**<br>
+**Complete Weekly Trends (Turnip Mafia Data)**<br>
 ![Complete Weekly Trends](https://github.com/ys-lin14/acnh-classification/blob/master/screenshots/complete_weekly_trends.PNG?raw=true)
 <br><br>
 
@@ -38,8 +38,6 @@ The naive bayes and knn classififers resulted in average test accuracies of 0.93
 |    1    | Big Spike   |
 |    2    | Decreasing  |
 |    3    | Small Spike |
-
-<br><br>
 
 
 **Other Considerations**<br>
