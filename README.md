@@ -24,6 +24,24 @@ The naive bayes and knn classififers resulted in average test accuracies of 0.93
 <br><br>
 
 
+**Complete Weekly Trends**<br>
+![Complete Weekly Trends](https://github.com/ys-lin14/acnh-classification/blob/master/screenshots/complete_weekly_trends.PNG?raw=true)
+<br><br>
+
+
+**KNN Predictions**<br>
+![KNN Predictions](https://github.com/ys-lin14/acnh-classification/blob/master/screenshots/knn_predictions.PNG?raw=true)
+
+| Pattern |    Trend    |
+|   :-:   |     :-:     |
+|    0    | Fluctuating |
+|    1    | Big Spike   |
+|    2    | Decreasing  |
+|    3    | Small Spike |
+
+<br><br>
+
+
 **Other Considerations**<br>
 Price pattern probabilities were dependent upon the previous pattern and non-uniform which resulted in some data imbalance.
 Taking this imbalance into consideration I went with stratified k fold cross validation.
